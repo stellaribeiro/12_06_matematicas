@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+
+</head>
+<style>
+    *{
+        background-color: pink;
+    }
+</style>
+<body>
+    <body>
+
+    <h1>Painel de Testes Matemáticos (Objeto Math)</h1>
+    
+    <div class="container">
+        <div class="bloco-input">
+            <label>Campo Único (1, 6 e 7)</label>
+            <br>
+            <input type="number" id="valor" value="0">
+        </div>
+
+        <div class="bloco-input">
+            <label>Campo Números</label>
+            <br>
+            <input type="number" id="n1"  placeholder="n1">
+            <input type="number" id="n2"  placeholder="n2">
+            <input type="number" id="n3"  placeholder="n3">
+            <input type="number" id="n4"  placeholder="n4">
+            <input type="number" id="n5"  placeholder="n5">
+        </div>
+
+        <hr>
+        <h3>Escolha uma ação:</h3>
+        <button onclick="calcularRaiz()">1. Raiz Quadrada</button>
+        <br>
+        <button onclick="calcularPotencia()">2. Potência (n1ª ^ n2º)</button>
+        <br>
+        <button onclick="sortear1a100()">3. Sortear 1 a 100</button>
+        <br>
+        <button onclick="encontrarMaior()">4. Encontrar Maior</button>
+        <br>
+        <button onclick="encontrarMenor()">5. Encontrar Menor</button>
+        <br>
+        <button onclick="jogarAdivinhacao()">6. Jogar Adivinhação (1 a 10)</button>
+        <br>
+        <button onclick="calcularAbsoluto()">7. Valor Absoluto</button>
+        <br>
+        <button onclick="arredondarTudo()">8. Arredondar Tudo</button>
+        <br>
+        <button onclick="lancarDado()">9. Lançar 1 Dado</button>
+        <br>
+        <button onclick="lancarDoisDados()">10. Lançar 2 Dados</button>
+        <br>
+
+        <hr>
+
+        <strong>Painel de Saída:</strong>
+        <div id="resultado">Clique em um dos botões acima para ver o cálculo aqui...</div>
+    </div>
+</body>
+</html>
